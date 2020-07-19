@@ -2,25 +2,25 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40215" started-at="2020-07-11T12:28:46Z" finished-at="2020-07-11T12:29:26Z">
+  <suite name="Default suite" duration-ms="28039" started-at="2020-07-19T07:35:21Z" finished-at="2020-07-19T07:35:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40215" started-at="2020-07-11T12:28:46Z" finished-at="2020-07-11T12:29:26Z">
+    <test name="Default test" duration-ms="28039" started-at="2020-07-19T07:35:21Z" finished-at="2020-07-19T07:35:49Z">
       <class name="hraPOrtal.TestPackage.LoginTest">
-        <test-method status="PASS" signature="appiumServerStart()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="appiumServerStart" is-config="true" duration-ms="29133" started-at="2020-07-11T17:58:46Z" finished-at="2020-07-11T17:59:15Z">
+        <test-method status="PASS" signature="appiumServerStart()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="appiumServerStart" is-config="true" duration-ms="18356" started-at="2020-07-19T13:05:21Z" finished-at="2020-07-19T13:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appiumServerStart -->
-        <test-method status="PASS" signature="login()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="login" duration-ms="11057" started-at="2020-07-11T17:59:15Z" finished-at="2020-07-11T17:59:26Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="login" duration-ms="9658" started-at="2020-07-19T13:05:40Z" finished-at="2020-07-19T13:05:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="appiumStopServer()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="appiumStopServer" is-config="true" duration-ms="0" started-at="2020-07-11T17:59:26Z" finished-at="2020-07-11T17:59:26Z">
+        <test-method status="FAIL" signature="appiumStopServer()[pri:0, instance:hraPOrtal.TestPackage.LoginTest@7fac631b]" name="appiumStopServer" is-config="true" duration-ms="1" started-at="2020-07-19T13:05:49Z" finished-at="2020-07-19T13:05:49Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at hraPortal.BasePackage.appiumLaunch.appiumserverstop(appiumLaunch.java:78)
-	at hraPOrtal.TestPackage.LoginTest.appiumStopServer(LoginTest.java:41)
+	at hraPOrtal.TestPackage.LoginTest.appiumStopServer(LoginTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -51,6 +51,6 @@
           </reporter-output>
         </test-method> <!-- appiumStopServer -->
       </class> <!-- hraPOrtal.TestPackage.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

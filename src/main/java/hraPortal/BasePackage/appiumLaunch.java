@@ -61,8 +61,8 @@ public class appiumLaunch {
 	DesiredCapabilities cap = new DesiredCapabilities();
 	cap.setCapability("platformVersion", prop.getProperty("platformVersion"));
 	cap.setCapability("platformName",prop.getProperty("platformName"));
-	cap.setCapability("deviceName",prop.getProperty("deviceName"));
-	cap.setCapability("udid",prop.getProperty("udid"));
+	cap.setCapability("deviceName","simulatorAndroid");
+	cap.setCapability("udid","emulator-5554");
 	cap.setCapability("app",prop.getProperty("app"));
 	cap.setCapability("adbExecTimeout",prop.getProperty("adbExecTimeout"));
 	cap.setCapability("fullReset",prop.getProperty("fullReset"));
